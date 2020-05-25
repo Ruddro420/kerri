@@ -1,0 +1,152 @@
+@media(max-width:991px){
+  #header-part .main-row{
+    display:block;
+  }
+  #header-part .text-col{
+    margin-top: 20%;
+  }
+    #header-part .navbar-nav{
+        display: none;
+    }
+    #header-part .container{
+      max-width: 1200px;
+    }
+    .text-col p{
+    color: #AAA;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+#header-part .openbtn{
+  display: inline-block;
+  margin-top: 0rem;
+  margin-right:1rem;
+}
+#header-part .navbar{
+  display: inline-block;
+  float: left;
+}
+  #header-part .openbtn{
+    float:right;
+  }
+  #header-part .overlay .closebtn{
+    top:1rem;
+    right:1.5rem;
+  }
+  #header-part .overlay-content{
+    position: relative;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+  }
+  .sticky .openbtn{
+    margin-left:5rem;
+  }
+  .sticky .main-logo{
+    float: right;
+    margin-right:5rem;
+  }
+  .sticky .navbar{
+    padding-top: .2rem;
+  }
+}
+@media(max-width:768px){
+#clint .clint{
+    width: 90%;
+    margin: auto;
+}
+#header-part{
+  background: linear-gradient(rgba(2, 2, 2, 0.7),rgba(2, 2, 2, 0.7)),url(../img/header-bg.jpg);
+  height:;
+  padding-bottom:5rem;
+  background-size:cover;
+  background-position: center center;
+  background-attachment: fixed;
+
+}
+}
+@media(max-width:575px){
+  #service .service-tittle{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 3rem;
+    color: #888;
+    font-weight: 300;
+    margin-top: 2rem;
+}
+ #work .work-tittle{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 3rem;
+    color: #888;
+    font-weight: 300;
+    margin-top: 2rem;
+ }
+ #clint .clint-tittle{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 3rem;
+    color: #888;
+    font-weight: 300;
+    margin-top: 2rem;
+ }
+ #blog .blog-tittle{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 3rem;
+    color: #888;
+    font-weight: 300;
+    margin-top: 2rem;
+ }
+ #contact .contact-tittle{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 3rem;
+    color: #888;
+    font-weight: 300;
+    margin-top: 2rem;
+ }
+  #header-part .text-col{
+    margin-top: 30%;
+  }
+  .text-col h2{
+     font-weight: 700;
+    font-size: 2.5rem;
+    letter-spacing: .3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+}
+@media(max-width:450px){
+  #header-part .text-col{
+    margin-top: 40%;
+  }
+ .text-col h2{
+     font-weight: 700;
+    font-size: 2.3rem;
+    letter-spacing: .3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.text-col h6{
+     font-weight: 300;
+    font-size: 2rem;
+    letter-spacing: .1rem;
+}
+#header-part h2 #typed{
+  color: #dc3545;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+#work .work-btn .btn{
+    text-transform: uppercase;
+    font-size: .8rem;
+    padding: .4rem .6rem;
+    color: #444;
+    margin: .3rem;
+    transition: .2s;
+    background: #fff;
+    font-weight: 600;
+}
+
+}
