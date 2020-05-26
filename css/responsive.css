@@ -1,6 +1,6 @@
 @media(max-width:991px){
   #header-part .main-row{
-    display:block;
+    display:inline-block;
   }
   #header-part .text-col{
     margin-top: 20%;
@@ -119,7 +119,7 @@
 }
 @media(max-width:450px){
   #header-part .text-col{
-    margin-top: 40%;
+    margin-top: 30%;
   }
  .text-col h2{
      font-weight: 700;
