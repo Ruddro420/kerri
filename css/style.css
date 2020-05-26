@@ -10,6 +10,14 @@ body{
 :focus{
     outline: 0;
 }
+#contact::before, 
+#work::before{
+display: block;
+content: " ";
+margin-top: -100px;
+height: 100px;
+visibility: hidden;
+}
 /*Header ### part*/
 #header-part{
   background: linear-gradient(rgba(2, 2, 2, 0.7),rgba(2, 2, 2, 0.7)),url(../img/header-bg.jpg);
